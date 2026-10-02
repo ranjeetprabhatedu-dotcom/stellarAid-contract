@@ -1,11 +1,11 @@
 {
   "name": "@stellaraid/wallets",
   "version": "0.1.0",
-  "description": "Wallet helpers for StellarAid — Freighter, Albedo, Lobstr",
+  "description": "Wallet helpers for StellarAid \u2014 Freighter, Albedo, Lobstr",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
@@ -14,5 +14,7 @@
   "devDependencies": {
     "typescript": "^5.4.0"
   },
-  "files": ["dist"]
+  "files": [
+    "dist"
+  ]
 }
