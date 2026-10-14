@@ -25,16 +25,11 @@ build/
 out/
 
 # Environment files
-.env
-.env.local
 .env.*.local
 .env.testnet
 .env.mainnet
-.env.development
-.env.production
 
 # IDE & Editor files
-.vscode/*
 !.vscode/extensions.json
 !.vscode/settings.json
 .idea/
@@ -127,3 +122,4 @@ sdk/bindings/.ci-consumer/
 *.sql
 .backup/
 archives/
+config.bat
