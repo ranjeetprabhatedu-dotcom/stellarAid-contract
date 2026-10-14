@@ -8,7 +8,7 @@
     "@stellar/stellar-sdk": "^12.1.0"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "typecheck": "tsc --noEmit",
     "lint": "eslint src test",
     "lint:fix": "eslint src test --fix",
